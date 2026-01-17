@@ -14,15 +14,32 @@ ________________________________________________________________________________
 
 🌍 **Çok Dillilik ve Akıllı Yerelleştirme**
 
-Resource (.resx) Entegrasyonu: Proje sadece statik metinlerde değil, yapay zekaya gönderilen talimatlarda (prompt) da .NET Resource yapısını kullanarak tam uyumlu TR/EN desteği sunar.
+*Resource (.resx) Entegrasyonu*: Proje sadece statik metinlerde değil, yapay zekaya gönderilen talimatlarda (prompt) da .NET Resource yapısını kullanarak tam uyumlu TR/EN desteği sunar.
 
-Kültüre Duyarlı Altyapı: Sistemin aktif diliyle senkronize çalışan akıllı içerik üretim süreçleri kurgulanmıştır.
+*Kültüre Duyarlı Altyapı*: Sistemin aktif diliyle senkronize çalışan akıllı içerik üretim süreçleri kurgulanmıştır.
 
 🏗️ **Teknik Mimari ve Veri Yönetimi**
 
-Entity Framework DbFirst: Kurumsal standartlara uygun, mevcut SQL şemasıyla tam uyumlu asenkron veri modelleme mimarisi kullanılmıştır.
+*Entity Framework DbFirst*: Kurumsal standartlara uygun, mevcut SQL şemasıyla tam uyumlu asenkron veri modelleme mimarisi kullanılmıştır.
 
-API Ekosistemi: Sosyal medya verileri ve yapay zeka servisleri, uygulamanın dinamizmini artırmak amacıyla merkezi bir API yönetim katmanı üzerinden sisteme dahil edilmiştir.
+*API Ekosistemi*: Sosyal medya verileri ve yapay zeka servisleri, uygulamanın dinamizmini artırmak amacıyla merkezi bir API yönetim katmanı üzerinden sisteme dahil edilmiştir.
 
+:camera: **Uygulama Görselleri**
 
+* Ana Sayfa – Instagram & Twitter Verisi Gösterimi
 
+_____________________________________________________________________________________________________________________________________________________________________
+
+![Image](https://github.com/user-attachments/assets/30d92502-6a9c-439d-a900-fa02deac3ab3)
+
+* Kullanıcı Arayüzü – Çok Dilli Hizmet Sayfası
+
+![Image](https://github.com/user-attachments/assets/179f949d-0f52-49dd-8823-b23cfaa63a95)
+
+* Admin Panel – SSS Oluşturma (AI ile)
+
+![Image](https://github.com/user-attachments/assets/343fc033-ff7f-4d23-ab2f-b49ed19036ec)
+
+* Admin Panel – Hizmet Görseli Üretimi (Prompt tabanlı)
+
+![Image](https://github.com/user-attachments/assets/1d9818d6-45f6-485d-ba46-37e9dd325af6)
