@@ -1,8 +1,11 @@
-LifeSure: AI-Integrated Enterprise Insurance System
+🚀 **LifeSure : Yapay Zeka Destekli Sigorta Platformu**
 
-LifeSure, modern yapay zeka modellerini ve harici API servislerini merkezi bir yönetim panelinde birleştiren bir ASP.NET MVC projesidir.
+_____________________________________________________________________________________________________________________________________________________________________
 
-:star2: Öne Çıkan Modüller
+LifeSure, sigorta sektörüne yönelik geliştirilen, çok dilli destek sunan ve yapay zeka entegrasyonlarıyla zenginleştirilmiş modern bir web uygulamasıdır. Proje kapsamında; içerik yönetiminde yapay zekadan yararlanma, dinamik görsel üretimi ve sosyal medya verilerinin API aracılığıyla entegre edilmesi gibi özellikler geliştirilmiştir.
+
+
+:star2: **Öne Çıkan Modüller**
 
 AI FAQ System (RapidAPI ChatGPT): Sektörel konularda asenkron soru-cevap üretimi.
 
