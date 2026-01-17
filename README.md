@@ -34,7 +34,7 @@ ________________________________________________________________________________
 
 * Kullanıcı Arayüzü – Çok Dilli Hizmet Sayfası
 
-![Image](https://github.com/user-attachments/assets/179f949d-0f52-49dd-8823-b23cfaa63a95)
+![Image](https://github.com/user-attachments/assets/d86634a1-9b70-4e81-b3e1-c0376be4b364)
 
 * Admin Panel – SSS Oluşturma (AI ile)
 
