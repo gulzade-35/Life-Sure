@@ -8,9 +8,9 @@ ________________________________________________________________________________
 
 🤖 **Yapay Zeka ve İçerik Yönetimi**
 
-Dinamik SSS Üretimi: RapidAPI üzerinden ChatGPT entegrasyonu ile sektörel konularda asenkron soru-cevap setleri oluşturulmaktadır.
+*Dinamik SSS Üretimi*: RapidAPI üzerinden ChatGPT entegrasyonu ile sektörel konularda asenkron soru-cevap setleri oluşturulmaktadır.
 
-Görsel Üretim Motoru: Pollinations.ai API kullanılarak, hizmet başlıklarına uygun profesyonel ve özgün görseller metinden görsele (Text-to-Image) teknolojisiyle anlık üretilmektedir.
+*Görsel Üretim Motoru*: Pollinations.ai API kullanılarak, hizmet başlıklarına uygun profesyonel ve özgün görseller metinden görsele (Text-to-Image) teknolojisiyle anlık üretilmektedir.
 
 🌍 **Çok Dillilik ve Akıllı Yerelleştirme**
 
