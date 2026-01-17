@@ -90,7 +90,18 @@ namespace LifeSure.Controllers
         }
         public PartialViewResult PartialTestimonial()
         {
-            return PartialView();
+            var comments = db.TblTestimonial
+                .OrderBy(f => f.TestimonialId)
+                .Take(3)
+                .Select(f => new TestimonialViewModel
+                {
+                    Name = f.Name,
+                    Title = f.Title,
+                    Comment = f.Comment,
+                    Image = f.ImageUrl
+                })
+                .ToList();
+            return PartialView(comments);
         }
         public PartialViewResult PartialFooter()
         {
