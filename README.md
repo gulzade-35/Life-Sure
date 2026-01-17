@@ -4,24 +4,25 @@ ________________________________________________________________________________
 
 LifeSure, sigorta sektörüne yönelik geliştirilen, çok dilli destek sunan ve yapay zeka entegrasyonlarıyla zenginleştirilmiş modern bir web uygulamasıdır. Proje kapsamında; içerik yönetiminde yapay zekadan yararlanma, dinamik görsel üretimi ve sosyal medya verilerinin API aracılığıyla entegre edilmesi gibi özellikler geliştirilmiştir.
 
+_____________________________________________________________________________________________________________________________________________________________________
 
-:star2: **Öne Çıkan Modüller**
+🤖 **Yapay Zeka ve İçerik Yönetimi**
 
-AI FAQ System (RapidAPI ChatGPT): Sektörel konularda asenkron soru-cevap üretimi.
+Dinamik SSS Üretimi: RapidAPI üzerinden ChatGPT entegrasyonu ile sektörel konularda asenkron soru-cevap setleri oluşturulmaktadır.
 
-AI Image Engine (Pollinations.ai): Metin tabanlı (Text-to-Image) profesyonel görsel üretimi.
+Görsel Üretim Motoru: Pollinations.ai API kullanılarak, hizmet başlıklarına uygun profesyonel ve özgün görseller metinden görsele (Text-to-Image) teknolojisiyle anlık üretilmektedir.
 
-Social Media API: Gerçek zamanlı sosyal medya veri entegrasyonu.
+🌍 **Çok Dillilik ve Akıllı Yerelleştirme**
 
-Advanced Localization: .NET Resource dosyaları ile hem arayüz hem de AI Prompt yönetimi (TR/EN).
+Resource (.resx) Entegrasyonu: Proje sadece statik metinlerde değil, yapay zekaya gönderilen talimatlarda (prompt) da .NET Resource yapısını kullanarak tam uyumlu TR/EN desteği sunar.
 
-🛠 Teknik Stack
+Kültüre Duyarlı Altyapı: Sistemin aktif diliyle senkronize çalışan akıllı içerik üretim süreçleri kurgulanmıştır.
 
-Backend: C# | ASP.NET MVC 5 | .NET Framework 4.8
+🏗️ **Teknik Mimari ve Veri Yönetimi**
 
-ORM: Entity Framework 6 (Database First)
+Entity Framework DbFirst: Kurumsal standartlara uygun, mevcut SQL şemasıyla tam uyumlu asenkron veri modelleme mimarisi kullanılmıştır.
 
-APIs: Pollinations.ai (Görsel), RapidAPI ChatGPT (Metin), Social Media Graph APIs
+API Ekosistemi: Sosyal medya verileri ve yapay zeka servisleri, uygulamanın dinamizmini artırmak amacıyla merkezi bir API yönetim katmanı üzerinden sisteme dahil edilmiştir.
 
-Frontend: Bootstrap 5
+
 
