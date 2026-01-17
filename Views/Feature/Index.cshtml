@@ -1,0 +1,56 @@
+﻿@model IEnumerable<LifeSure.Models.DataModels.TblFeature>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="pd-20 card-box mb-30">
+    <div class="clearfix mb-20">
+        <div class="pull-left">
+            <h4 class="text-blue h4">Öne Çıkanlar</h4>
+        </div>
+        <div class="pull-right">
+            <a href="@Url.Action("AddFeature", "Feature")" class="btn btn-success btn-sm">
+                <i class="fa fa-plus"></i> Yeni Ekle
+            </a>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Başlık</th>
+                <th>Açıklama</th>
+                <th>İkon</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.FeatureId</td>
+                    <td>@item.Title</td>
+                    <td>@item.Description</td>
+                    <td>@item.Icon</td>
+                    <td>
+                        <a href="@Url.Action("Delete", "Feature", new { id = item.FeatureId })" class="btn btn-danger btn-sm">
+                            <i class="fa fa-trash"></i> Sil
+                        </a>
+
+                    </td>
+                    <td>
+                        <a href="@Url.Action("UpdateFeature", "Feature", new { id = item.FeatureId })" class="btn btn-warning btn-sm">
+                            <i class="fa fa-edit"></i> Güncelle
+                        </a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+

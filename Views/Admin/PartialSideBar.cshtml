@@ -1,0 +1,77 @@
+﻿
+<div class="left-side-bar">
+    <div class="brand-logo">
+        <a href="@Url.Action("Index", "Home")">
+            <img src="~/Content/deskapp2-master/vendors/images/deskapp-logo.svg" alt="" class="dark-logo">
+            <img src="~/Content/deskapp2-master/vendors/images/deskapp-logo-white.svg" alt="" class="light-logo">
+        </a>
+        <div class="close-sidebar" data-toggle="left-sidebar-close">
+            <i class="ion-close-round"></i>
+        </div>
+    </div>
+    <div class="menu-block customscroll">
+        <div class="sidebar-menu">
+            <ul id="accordion-menu">
+                <li>
+                    <a href="@Url.Action("Index", "Home")" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-home"></span>
+                        <span class="mtext">Ana Sayfa</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "About")" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-write"></span>
+                        <span class="mtext">Hakkımızda</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("GenerateImage", "ServiceImage")" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-receipt"></span>
+                        <span class="mtext">Hizmetler</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Index", "Team")" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-user"></span>
+                        <span class="mtext">Ekibimiz</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="@Url.Action("Generate", "Faq")" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-comment-alt"></span>
+                        <span class="mtext">SSS</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""@Url.Action("Index", "Testimonial")"" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-write"></span>
+                        <span class="mtext">Referanslar</span>
+                    </a>
+                </li>
+                <li>
+                    <a href=""@Url.Action("Index", "Contact")" class="dropdown-toggle no-arrow menu-item">
+                        <span class="icon-copy ti-stats-up"></span>
+                        <span class="mtext">İletişim</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    .menu-item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start; /* SOLA yasla */
+    }
+
+        .menu-item .icon-copy {
+            font-size: 23px;
+            margin-right: 10px; /* ikon ile yazı arası */
+        }
+
+        .menu-item .mtext {
+            font-size: 20px;
+        }
+</style>

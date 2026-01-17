@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Hakkımda</value>
+  </data>
+  <data name="Blog" xml:space="preserve">
+    <value>Blog</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>İletişim</value>
+  </data>
+  <data name="FAQ" xml:space="preserve">
+    <value>Sık Sorulan Sorular</value>
+  </data>
+  <data name="GetQuote" xml:space="preserve">
+    <value>Teklif Al</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Ana Sayfa</value>
+  </data>
+  <data name="OurFeatures" xml:space="preserve">
+    <value>Özelliklerimiz</value>
+  </data>
+  <data name="OurTeam" xml:space="preserve">
+    <value>Ekibimiz</value>
+  </data>
+  <data name="Page404" xml:space="preserve">
+    <value>404 Sayfası</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Sayfalar</value>
+  </data>
+  <data name="Services" xml:space="preserve">
+    <value>Hizmetler</value>
+  </data>
+  <data name="Testimonials" xml:space="preserve">
+    <value>Müşteri Yorumları</value>
+  </data>
+  <data name="Welcome" xml:space="preserve">
+    <value>Hoş Geldiniz</value>
+  </data>
+  <data name="FindLocation" xml:space="preserve">
+    <value>Konum Bul</value>
+  </data>
+  <data name="CallExperts" xml:space="preserve">
+    <value>Uzmanlarımızı Arayın</value>
+  </data>
+  <data name="FreePhone" xml:space="preserve">
+    <value>Ücretsiz</value>
+  </data>
+  <data name="SearchByKeyword" xml:space="preserve">
+    <value>Anahtar kelime ile arama yapın</value>
+  </data>
+  <data name="Keywords" xml:space="preserve">
+    <value>anahtar kelimeler</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="WelcomeToLifeSure" xml:space="preserve">
+    <value>LifeSure'e Hoş Geldiniz</value>
+  </data>
+  <data name="LifeInsuranceMakesYouHappy" xml:space="preserve">
+    <value>Hayat Sigortası Sizi Mutlu Eder</value>
+  </data>
+  <data name="HeroDescription" xml:space="preserve">
+    <value>Hayat sigortası, sevdiklerinizin finansal güvenliğini sağlamanın en etkili yoludur. Geleceğe yatırım yapın ve huzur içinde yaşayın.</value>
+  </data>
+  <data name="WatchVideo" xml:space="preserve">
+    <value>Video İzle</value>
+  </data>
+  <data name="LearnMore" xml:space="preserve">
+    <value>Daha Fazla Öğren</value>
+  </data>
+  <data name="SiteTitle" xml:space="preserve">
+    <value>LifeSure - Hayat Sigortası</value>
+  </data>
+  <data name="SearchModal_Title" xml:space="preserve">
+    <value>Anahtar kelime ile ara</value>
+  </data>
+  <data name="SearchModal_Placeholder" xml:space="preserve">
+    <value>anahtar kelimeler</value>
+  </data>
+  <data name="SearchModal_Close" xml:space="preserve">
+    <value>Kapat</value>
+  </data>
+  <data name="Carousel_Welcome" xml:space="preserve">
+    <value>LifeSure'a Hoş Geldiniz</value>
+  </data>
+  <data name="Carousel_Title" xml:space="preserve">
+    <value>Hayat Sigortası Sizi Mutlu Eder</value>
+  </data>
+  <data name="Carousel_Description" xml:space="preserve">
+    <value>Lorem Ipsum, matbaacılık ve dizgi endüstrisinin basit sahte metnidir. Lorem Ipsum, endüstrinin standart sahte metni olmuştur...</value>
+  </data>
+  <data name="Carousel_WatchVideo" xml:space="preserve">
+    <value>Video İzle</value>
+  </data>
+  <data name="Carousel_LearnMore" xml:space="preserve">
+    <value>Daha Fazla Öğren</value>
+  </data>
+  <data name="Features_Title" xml:space="preserve">
+    <value>Özelliklerimiz</value>
+  </data>
+  <data name="Features_MainTitle" xml:space="preserve">
+    <value>Sigorta Size Daha İyi Bir Gelecek Sunar</value>
+  </data>
+  <data name="Features_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</value>
+  </data>
+  <data name="Feature_TrustedCompany" xml:space="preserve">
+    <value>Güvenilir Şirket</value>
+  </data>
+  <data name="Feature_TrustedCompany_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</value>
+  </data>
+  <data name="Feature_MoneyBack" xml:space="preserve">
+    <value>Her Zaman Para İadesi</value>
+  </data>
+  <data name="Feature_MoneyBack_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</value>
+  </data>
+  <data name="Feature_FlexiblePlans" xml:space="preserve">
+    <value>Esnek Planlar</value>
+  </data>
+  <data name="Feature_FlexiblePlans_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</value>
+  </data>
+  <data name="Feature_FastSupport" xml:space="preserve">
+    <value>7/24 Hızlı Destek</value>
+  </data>
+  <data name="Feature_FastSupport_Description" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...</value>
+  </data>
+  <data name="About_Title" xml:space="preserve">
+    <value>Şirketimiz Hakkında</value>
+  </data>
+  <data name="About_MainTitle" xml:space="preserve">
+    <value>Geniş Kapsamlı Koruma Keşfi</value>
+  </data>
+  <data name="About_Description1" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt debitis sint tempora. Corporis consequatur illo blanditiis voluptates aperiam quos aliquam totam aliquid rem explicabo,</value>
+  </data>
+  <data name="About_Description2" xml:space="preserve">
+    <value>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae praesentium recusandae eligendi modi hic</value>
+  </data>
+  <data name="About_Feature1" xml:space="preserve">
+    <value>Paranızı tasarruf edebiliriz.</value>
+  </data>
+  <data name="About_Feature2" xml:space="preserve">
+    <value>Mal üretimi veya ticareti</value>
+  </data>
+  <data name="About_Feature3" xml:space="preserve">
+    <value>Hayat sigortamız esnektir</value>
+  </data>
+  <data name="About_MoreInformation" xml:space="preserve">
+    <value>Daha Fazla Bilgi</value>
+  </data>
+  <data name="Stats_InsurancePolicies" xml:space="preserve">
+    <value>Sigorta Poliçesi</value>
+  </data>
+  <data name="Stats_AwardsWon" xml:space="preserve">
+    <value>Kazanılan Ödül</value>
+  </data>
+  <data name="Stats_SkilledAgents" xml:space="preserve">
+    <value>Uzman Temsilci</value>
+  </data>
+  <data name="Stats_TeamMembers" xml:space="preserve">
+    <value>Takım Üyesi</value>
+  </data>
+  <data name="Common_LearnMore" xml:space="preserve">
+    <value>Daha Fazla Öğren</value>
+  </data>
+  <data name="OurServices" xml:space="preserve">
+    <value>Hizmetlerimiz</value>
+  </data>
+  <data name="WeProvideBestServices" xml:space="preserve">
+    <value>En İyi Hizmetleri Sunuyoruz</value>
+  </data>
+  <data name="ServicesDescription" xml:space="preserve">
+    <value>Müşterilerimize en kaliteli hizmetleri sunmak için sürekli kendimizi geliştiriyoruz. Uzman ekibimizle birlikte, ihtiyaçlarınıza özel çözümler üretiyoruz.</value>
+  </data>
+  <data name="LifeInsurance" xml:space="preserve">
+    <value>Hayat Sigortası</value>
+  </data>
+  <data name="HealthInsurance" xml:space="preserve">
+    <value>Sağlık Sigortası</value>
+  </data>
+  <data name="CarInsurance" xml:space="preserve">
+    <value>Kasko Sigortası</value>
+  </data>
+  <data name="HomeInsurance" xml:space="preserve">
+    <value>Konut Sigortası</value>
+  </data>
+  <data name="ServiceItemDescription" xml:space="preserve">
+    <value>Size en uygun sigorta çözümlerini sunuyoruz. Detaylı bilgi için bizimle iletişime geçin!</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Devamını Oku</value>
+  </data>
+  <data name="MoreServices" xml:space="preserve">
+    <value>Daha Fazla Hizmet</value>
+  </data>
+  <data name="SomeImportantFAQs" xml:space="preserve">
+    <value>Önemli Sorular</value>
+  </data>
+  <data name="CommonFrequentlyAskedQuestions" xml:space="preserve">
+    <value>Sık Sorulan Sorular</value>
+  </data>
+  <data name="FAQQuestion1" xml:space="preserve">
+    <value>S: Yeni öğrenci haftasında neler olur?</value>
+  </data>
+  <data name="FAQQuestion2" xml:space="preserve">
+    <value>S: Transfer başvuru süreci nasıl işler?</value>
+  </data>
+  <data name="FAQQuestion3" xml:space="preserve">
+    <value>S: Neden toplum kolejine katılmalıyım?</value>
+  </data>
+  <data name="FAQAnswer" xml:space="preserve">
+    <value>C: Üst düzey genel bakışlar için güçlü bir özet sağlamak amacıyla çevik çerçeveler kullanıyoruz. Kurumsal strateji için yinelemeli yaklaşımlar, genel değer önerisini ilerletmek için işbirlikçi düşünceyi teşvik eder.</value>
+  </data>
+  <data name="TeamTitle" xml:space="preserve">
+    <value>Ekibimiz</value>
+  </data>
+  <data name="TeamMainHeading" xml:space="preserve">
+    <value>Uzman Ekip Üyelerimizle Tanışın</value>
+  </data>
+  <data name="TeamDescription" xml:space="preserve">
+    <value>Deneyimli ve uzman ekibimiz, size en iyi hizmeti sunmak için burada. Her alanda uzmanlaşmış profesyonellerimiz ile güvenle çalışabilir, ihtiyaçlarınıza en uygun çözümleri bulabilirsiniz.</value>
+  </data>
+  <data name="MemberName1" xml:space="preserve">
+    <value>Ahmet Yılmaz</value>
+  </data>
+  <data name="MemberProfession1" xml:space="preserve">
+    <value>Kıdemli Sigorta Danışmanı</value>
+  </data>
+  <data name="MemberName2" xml:space="preserve">
+    <value>Ayşe Kaya</value>
+  </data>
+  <data name="MemberProfession2" xml:space="preserve">
+    <value>Hasar Uzmanı</value>
+  </data>
+  <data name="MemberName3" xml:space="preserve">
+    <value>Mehmet Özkan</value>
+  </data>
+  <data name="MemberProfession3" xml:space="preserve">
+    <value>Risk Değerlendirme Müdürü</value>
+  </data>
+  <data name="MemberName4" xml:space="preserve">
+    <value>Fatma Demir</value>
+  </data>
+  <data name="MemberProfession4" xml:space="preserve">
+    <value>Müşteri İlişkileri Direktörü</value>
+  </data>
+  <data name="TestimonialTitle" xml:space="preserve">
+    <value>Referanslar</value>
+  </data>
+  <data name="TestimonialSubtitle" xml:space="preserve">
+    <value>Müşterilerimiz Ne Diyor</value>
+  </data>
+  <data name="TestimonialDescription" xml:space="preserve">
+    <value>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.</value>
+  </data>
+  <data name="ClientName" xml:space="preserve">
+    <value>Müşteri Adı</value>
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>Meslek</value>
+  </data>
+  <data name="TestimonialText" xml:space="preserve">
+    <value>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim error molestiae aut modi corrupti fugit eaque rem nulla incidunt temporibus quisquam.</value>
+  </data>
+  <data name="CompanyName" xml:space="preserve">
+    <value>LifeSure</value>
+  </data>
+  <data name="CompanyDescription" xml:space="preserve">
+    <value>Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor sit amet, consectetur adipiscing...</value>
+  </data>
+  <data name="UsefulLinks" xml:space="preserve">
+    <value>Faydalı Linkler</value>
+  </data>
+  <data name="AboutUs" xml:space="preserve">
+    <value>Hakkımızda</value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Özellikler</value>
+  </data>
+  <data name="FAQs" xml:space="preserve">
+    <value>Sık Sorulan Sorular</value>
+  </data>
+  <data name="Blogs" xml:space="preserve">
+    <value>Bloglar</value>
+  </data>
+  <data name="Instagram" xml:space="preserve">
+    <value>Instagram</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>Adres</value>
+  </data>
+  <data name="AddressDetail" xml:space="preserve">
+    <value>123 Sokak, New York, ABD</value>
+  </data>
+  <data name="MailUs" xml:space="preserve">
+    <value>Bize Ulaşın</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>info@example.com</value>
+  </data>
+  <data name="Telephone" xml:space="preserve">
+    <value>Telefon</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>(+012) 3456 7890</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Bülten</value>
+  </data>
+  <data name="NewsletterText" xml:space="preserve">
+    <value>Dolor amet sit justo amet elitr clita ipsum elitr est. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</value>
+  </data>
+  <data name="EnterEmail" xml:space="preserve">
+    <value>E-posta adresinizi girin</value>
+  </data>
+  <data name="SignUp" xml:space="preserve">
+    <value>Kaydol</value>
+  </data>
+  <data name="FreeCall" xml:space="preserve">
+    <value>Ücretsiz: + 0123 456 7890</value>
+  </data>
+</root>

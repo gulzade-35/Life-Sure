@@ -1,0 +1,64 @@
+﻿@model List<LifeSure.Models.DataModels.TblService>
+@using LifeSure.Services
+
+<div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary">@Resources.Lang.OurServices</h4>
+            <h1 class="display-4 mb-4">@Resources.Lang.WeProvideBestServices</h1>
+            <p class="mb-0">
+                @Resources.Lang.ServicesDescription
+            </p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            @if (Model != null && Model.Any())
+            {
+                foreach (var item in Model)
+                {
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="@Url.Content(item.ImageUrl)" class="img-fluid rounded-top w-100" alt="@item.Title">
+                                <div class="service-icon p-3">
+                                </div>
+                            </div>
+                            <div class="service-content p-4">
+                                <div class="service-content-inner">
+                                    <a href="#" class="d-inline-block h4 mb-4">
+                                        @* BAŞLIK: Veritabanındaki anahtarı dile çevirir *@
+                                        @{
+                                            var titleTranslation = Resources.Lang.ResourceManager.GetString(item.Title);
+                                            @(string.IsNullOrEmpty(titleTranslation) ? item.Title : titleTranslation)
+                                        }
+                                    </a>
+                                    @* AÇIKLAMA: Google üzerinden otomatik çevrilerek gelir *@
+                                    <p class="mb-4">
+                                        @TranslationHelper.AutoTranslate(item.Description)
+                                    </p>
+
+                                    <a class="btn btn-primary rounded-pill py-2 px-4" href="#">@Resources.Lang.ReadMore</a>
+                                    @*<a href="#" class="d-inline-block h4 mb-4">
+        @(string.IsNullOrEmpty(item.Title)
+            ? ""
+            :(HttpContext.GetGlobalResourceObject("Lang", item.Title) ?? item.Title))
+        </a>
+        <p class="mb-4">@item.Description</p>
+        <a class="btn btn-primary rounded-pill py-2 px-4" href="#">@Resources.Lang.ReadMore</a>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+        <div class="col-12 text-center">
+            <p>Gösterilecek hizmet bulunamadı.</p>
+        </div>
+            }
+            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                <a class="btn btn-primary rounded-pill py-3 px-5" href="#">@Resources.Lang.MoreServices</a>
+            </div>
+        </div>
+    </div>
+</div>

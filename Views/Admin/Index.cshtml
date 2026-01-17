@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="row">
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("Index", "About")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-primary">
+                        <i class="fa fa-info-circle fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">Hakkımızda</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("GenerateImage", "ServiceImage")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-success">
+                        <i class="fa fa-cogs fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">Hizmetler</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("Generate", "Faq")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-warning">
+                        <i class="fa fa-question-circle fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">SSS</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("Index", "Contact")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-primary">
+                        <i class="fa fa-bell fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">İletişim</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+</div>
+
+
+
+<div class="row">
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("Index", "Feature")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-danger">
+                        <i class="fa fa-feed fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">Öne Çıkanlar</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("Index", "Team")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-info">
+                        <i class="fa fa-users fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">Ekibimiz</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="col-xl-3 mb-30">
+        <div class="card-box height-100-p widget-style1">
+            <a href="@Url.Action("Index", "Testimonial")" style="text-decoration: none; color: inherit;">
+                <div class="d-flex align-items-center justify-content-center" style="height: 100px;">
+                    <div class="mr-3 text-secondary">
+                        <i class="fa fa-comment fa-3x"></i>
+                    </div>
+                    <div class="widget-data">
+                        <div style="font-size: 1.5rem; font-weight: 600;">Referanslar</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>

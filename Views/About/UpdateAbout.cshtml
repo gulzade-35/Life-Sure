@@ -1,0 +1,48 @@
+﻿@model LifeSure.Models.DataModels.TblAbout
+
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+
+<div class="pd-20 card-box mb-30">
+    <div class="clearfix">
+        <div class="pull-left">
+            <h4 class="text-blue h4">Hakkımda Güncelleme Sayfası</h4>
+        </div>
+    </div>
+    @using (Html.BeginForm("UpdateAbout", "About", FormMethod.Post))
+    {
+        @Html.HiddenFor(model => model.AboutId)
+
+        <div class="form-group row">
+            <label class="col-sm-12 col-md-2 col-form-label">Açıklama</label>
+            <div class="col-sm-12 col-md-10">
+                @Html.TextAreaFor(model => model.Description, new { @class = "form-control", rows = 5 })
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-12 col-md-2 col-form-label">Görsel URL</label>
+            <div class="col-sm-12 col-md-10">
+                @Html.TextBoxFor(model => model.ImageUrl, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <label class="col-sm-12 col-md-2 col-form-label">Görsel URL</label>
+            <div class="col-sm-12 col-md-10">
+                @Html.TextBoxFor(model => model.ImageUrl, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group row">
+            <div class="col-sm-12 col-md-10 offset-md-2">
+                <button type="submit" class="btn btn-primary">Kaydet</button>
+                <a href="@Url.Action("Index", "About")" class="btn btn-secondary">Vazgeç</a>
+            </div>
+        </div>
+    }
+</div>

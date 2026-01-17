@@ -1,0 +1,56 @@
+﻿﻿@model LifeSure.Models.ViewModels.ServiceViewModel
+
+@{
+    ViewBag.Title = "Görsel Üret";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="min-height-200px">
+    <div class="pd-20 card-box mb-30">
+        <div class="clearfix mb-20">
+            <div class="pull-left">
+                <h4 class="text-blue h4">Yapay Zeka ile Görsel Üret</h4>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- SOL SÜTUN: Prompt Formu -->
+            <div class="col-md-6 border-right pr-4">
+                @using (Html.BeginForm("GenerateImage", "ServiceImage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+
+                    <div class="form-group">
+                        <label for="ServiceTitle">Hizmet Başlığı</label>
+                        @Html.TextBoxFor(m => m.ServiceTitle, new { @class = "form-control", placeholder = "Örn: Hayat Sigortası" })
+                    </div>
+
+                    <div class="form-group mt-3">
+                        <label for="ServiceDescription">Hizmet Görseli için Prompt</label>
+                        @Html.TextAreaFor(m => m.ServiceDescription, new { @class = "form-control", rows = 5 })
+                        @Html.ValidationMessageFor(m => m.ServiceDescription, "", new { @class = "text-danger" })
+                    </div>
+
+                    <button type="submit" class="btn btn-primary mt-4">Görseli Üret</button>
+                }
+            </div>
+
+            <!-- SAĞ SÜTUN: Üretilen Görsel -->
+            <div class="col-md-6 pl-4">
+                @if (!string.IsNullOrEmpty(Model.ServiceImage))
+                {
+                    <div class="mt-3">
+                        <h5 class="mb-3">Üretilen Görsel:</h5>
+                        <img src="@Url.Content(Model.ServiceImage)" alt="Üretilen Görsel" class="img-fluid border p-2 rounded" style="max-width: 100%;" />
+                    </div>
+                }
+                else
+                {
+                    <div class="alert alert-secondary mt-5 text-center">
+                        Henüz görsel üretilmedi.
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

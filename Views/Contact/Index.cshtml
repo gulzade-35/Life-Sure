@@ -1,0 +1,59 @@
+﻿@model IEnumerable<LifeSure.Models.DataModels.TblContact>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="pd-20 card-box mb-30">
+    <div class="clearfix mb-20">
+        <div class="pull-left">
+            <h4 class="text-blue h4">İletişim Sayfası</h4>
+        </div>
+        <div class="pull-right">
+            <a href="@Url.Action("AddContact", "Contact")" class="btn btn-success btn-sm">
+                <i class="fa fa-plus"></i> Yeni Ekle
+            </a>
+        </div>
+    </div>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Ad Soyad</th>
+                <th>Mail</th>
+                <th>Konu</th>
+                <th>Mesaj İçeriği</th>
+                <th>Sil</th>
+                <th>Güncelle</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.ContactId</td>
+                    <td>@item.Name</td>
+                    <td>@item.Email</td>
+                    <td>@item.Subject</td>
+                    <td>@item.Email</td>
+                    <td>@item.Message</td>
+                    <td>
+                        <a href="@Url.Action("Delete", "Contact", new { id = item.ContactId })" class="btn btn-danger btn-sm">
+                            <i class="fa fa-trash"></i> Sil
+                        </a>
+
+                    </td>
+                    <td>
+                        <a href="@Url.Action("UpdateContact", "Contact", new { id = item.ContactId })" class="btn btn-warning btn-sm">
+                            <i class="fa fa-edit"></i> Güncelle
+                        </a>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>
+
